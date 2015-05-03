@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDataItem>
+   <DataItem>
+    <Key>Language</Key>
+    <Value>Language: Deutsch</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Play</Key>
+    <Value>Starte Spiel</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Restart</Key>
+    <Value>Neustarten</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Resume</Key>
+    <Value>Fortfahren</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Controls</Key>
+    <Value>Steuerung</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Exit</Key>
+    <Value>Beenden</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Use Touchscreen</Key>
+    <Value>Benutze Touchscreen</Value>
+  </DataItem>
+  <DataItem>
+    <Key><![CDATA[W A S D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[W A S D bewegen Q E für Avatar auswahl.
+D-Pad bewegen Schulter Buttons Aswahl.]]></Value>
+  </DataItem>
+  <DataItem>
+    <Key><![CDATA[A D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[A D bewegen Q E für Avatar auswahl.
+D-Pad bewegen Schulter Buttons Aswahl.]]></Value>
+  </DataItem>
+   <DataItem>
+    <Key>Score:</Key>
+    <Value>Punkte:</Value>
+  </DataItem>
+</ArrayOfDataItem>

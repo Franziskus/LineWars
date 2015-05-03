@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDataItem>
+   <DataItem>
+    <Key>Language</Key>
+    <Value>Language: ไทย</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Play</Key>
+    <Value>เล่น</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Restart</Key>
+    <Value>เริ่มเกมใหม่</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Resume</Key>
+    <Value>เล่นต่อ</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Controls</Key>
+    <Value>การควบคุม</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Exit</Key>
+    <Value>ออกจากเกม</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Use Touchscreen</Key>
+    <Value>ใช้หน้าจอสัมผัส</Value>
+  </DataItem>
+  <DataItem>
+    <Key><![CDATA[W A S D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[W A S D เคลื่อนที่ Q E เลือกคาแรคเตอร์
+D-Pad เคลื่อนที่
+Shoulder Buttons เลือกคาแรคเตอร์]]></Value>
+  </DataItem>
+    <DataItem>
+    <Key><![CDATA[A D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[A D เคลื่อนที่ Q E เลือกคาแรคเตอร์
+D-Pad เคลื่อนที่
+Shoulder Buttons เลือกคาแรคเตอร์]]></Value>
+  </DataItem>
+   <DataItem>
+    <Key>Score:</Key>
+    <Value>คะแนน:</Value>
+  </DataItem>
+</ArrayOfDataItem>

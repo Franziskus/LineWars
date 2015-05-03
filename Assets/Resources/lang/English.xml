@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDataItem>
+   <DataItem>
+    <Key>Language</Key>
+    <Value>Language: English</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Play</Key>
+    <Value>Play</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Restart</Key>
+    <Value>Restart</Value>
+  </DataItem>
+   <DataItem>
+    <Key>Resume</Key>
+    <Value>Resume</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Controls</Key>
+    <Value>Controls</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Exit</Key>
+    <Value>Exit</Value>
+  </DataItem>
+  <DataItem>
+    <Key>Use Touchscreen</Key>
+    <Value>Use Touchscreen</Value>
+  </DataItem>
+  <DataItem>
+    <Key><![CDATA[W A S D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[W A S D moving Q E for Hero selection.
+D-Pad moving shoulder buttons selection.]]></Value>
+  </DataItem>
+  <DataItem>
+    <Key><![CDATA[A D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Key>
+    <Value><![CDATA[A D moving Q E for Avatar selection.
+D-Pad moving shoulder buttons selection.]]></Value>
+  </DataItem>
+  <DataItem>
+    <Key>Score:</Key>
+    <Value>Score:</Value>
+  </DataItem>
+</ArrayOfDataItem>

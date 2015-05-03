@@ -1,0 +1,31 @@
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+The Code in this case everything that ends with .cs is under a modified MIT License (MIT)
+Copyright (c) 2015 Franziskus Heblich
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this Code and associated documentation files (the "Code"), to deal
+in the Code without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Code, and to permit persons to whom the Code is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Code.
+
+This Software contains Textures from multiple authors with special copyright clauses.
+Textures under "textures/chars/*.png", "textures/cards/*.png" and "textures/RFKVq.png"
+are from Sebastiaan van Hijfte and under Creattive Coments NonCommercial Public License.
+The sources of the files are here: http://www.reddit.com/r/PixelArt/comments/100tkt/two_weeks_ago_i_posted_50_mini_roleplay_adventure/ (2015-05-03)
+
+The Texture "textures/environment/map.png" is composed from "tileset overworld and dungeon" and can found here: http://opengameart.org/content/micro-tileset-overworld-and-dungeon (2015-05-03) and is under OGA-BY 3.0 license. The author is ThKaspar and his website is https://www.gamedevmarket.net/member/thkaspar (2015-05-03).
+
+Some UI Pictures are from Openclipart and under Public Domain:
+Keyboard: https://openclipart.org/detail/211816/keyboard from sixsixfive http://sixsixfive.deviantart.com/ (2015-05-03).
+Smartphone: https://openclipart.org/detail/211440/nexus-5-stylized from JOhannski www.johannesdeml.com (2015-05-03).
+Hand to touch on the Phone: https://openclipart.org/detail/175325/multitouch-scroll  from williamtheaker https://openclipart.org/user-detail/williamtheaker (2015-05-03).
