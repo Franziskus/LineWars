@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Collections.Generic;
 using System.Xml.Serialization;
 
-namespace Utils
+namespace Utils 
 {
 
 /// <summary>
@@ -190,7 +190,7 @@ public class XmlHelper : MonoBehaviour {
 		try{
 				back = new Quaternion(ParseFloat(m.Groups[1].ToString(), "Group 1"),ParseFloat(m.Groups[2].ToString(), "Group 2"),ParseFloat(m.Groups[3].ToString(), "Group 3"),ParseFloat(m.Groups[4].ToString(), "Group 4"));
 		}catch(FormatException e){
-				Debug.LogError("Can't convert \""+v+"\" x:\""+m.Groups[1].ToString()+"\"? y:\""+m.Groups[2].ToString()+"\"? z:\""+m.Groups[3].ToString()+"\"?"+"\"? w:\""+m.Groups[4].ToString()+"\"? \n ");		
+				Debug.LogError("Can't convert \""+v+"\" x:\""+m.Groups[1].ToString()+"\"? y:\""+m.Groups[2].ToString()+"\"? z:\""+m.Groups[3].ToString()+"\"?"+"\"? w:\""+m.Groups[4].ToString()+"\"? \n "+e.ToString());		
 		}
 		return back;
 	}
@@ -244,7 +244,7 @@ public class XmlHelper : MonoBehaviour {
 		try{
 			back = new Vector3(ParseFloat(m.Groups[1].ToString()),ParseFloat(m.Groups[2].ToString()),ParseFloat(m.Groups[3].ToString()));
 		}catch(FormatException e){
-			Debug.LogError("Can't convert \""+v+"\" x:\""+m.Groups[1].ToString()+"\"? y:\""+m.Groups[2].ToString()+"\"? z:\""+m.Groups[3].ToString()+"\"?");
+			Debug.LogError("Can't convert \""+v+"\" x:\""+m.Groups[1].ToString()+"\"? y:\""+m.Groups[2].ToString()+"\"? z:\""+m.Groups[3].ToString()+"\"? "+e.ToString());
 		}
 		return back;
 	}

@@ -71,7 +71,6 @@ namespace Linewars.Control{
 		/// <param name="rec">Rec where to test the click.</param>
 		/// <param name="buttomReset">this variable will set and read. See method description</param>
 		private bool IsClicked(Rect rec, ref bool buttomReset){
-			Vector3 buttomLocalTouchPoint = Vector3.one;
 			if(!buttomReset){			
 				foreach (Touch touch in Input.touches)
 				{

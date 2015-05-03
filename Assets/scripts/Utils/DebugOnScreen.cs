@@ -16,7 +16,6 @@ namespace Utils
 		private int nr = 0; 
 
 		private string lastLog;
-		private string lastStackTrace;
 		private LogType lastType;
 
 		private string text;
@@ -27,18 +26,17 @@ namespace Utils
 			if(Debug.isDebugBuild || Application.isEditor){
 				outSide = new Rect(0,0, Screen.width, Screen.height / 2);
 				inSide = new Rect(0,0, Screen.width, 50);
-				Application.RegisterLogCallback(HandleLog);
+				Application.logMessageReceived += HandleLog; 
 			}
 		}
 
 		private void HandleLog (string logString, string  stackTrace, LogType logType) { 
 			if(showDubbels || 
-			   !(logString.Equals(lastLog) && logType.Equals(lastType) )){ //&& stackTrace.Equals(lastStackTrace) )){
+			   !(logString.Equals(lastLog) && logType.Equals(lastType) )){
 				int pos = nr++ % COUNT;
 				texts[pos] = logType.ToString() + ": "+ logString;
 
 				lastType = logType;
-				lastStackTrace = stackTrace;
 				lastLog = logString;
 
 				text = "";

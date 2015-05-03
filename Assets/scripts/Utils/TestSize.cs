@@ -7,11 +7,8 @@ namespace Utils
 
 		public RectTransform leftButton;
 
-		private int screenHeight;
-
 		public void Awake(){
 			leftButton = this.GetComponent<RectTransform>();
-			screenHeight = Screen.height;
 		}
 
 		void OnGUI(){
