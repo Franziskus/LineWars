@@ -28,11 +28,13 @@ The most important thing in here is MainHelper. In Games you often need Singleto
 
 ## Game Manager
 Let's get over to the Game Manager:
+
 ![UML Class diagramm](http://yuml.me/diagram/scruffy/class/[%3C%3CIRestartable%3E%3E]-[Player],[%3C%3CIRestartable%3E%3E]%5E-.-[SpawnManager],[%3C%3CIInformEnable%3E%3E]%5E-.-[SpawnManager],[%3C%3CIInformEnable%3E%3E]%5E-.-[Player],[%3C%3CIInformEnable%3E%3E]%5E-.-[ActivateGameObject],[ActivateGameObject]-[MainManu],[ActivateGameObject]*-1[GameManager],[Player]1-1[GameManager],[SpawnManager]1-1[GameManager],[GameManager]-[note:%20enum%20GameState%20RESTART%20PAUSE%20RUN%20STARTED%20END%7Bbg:cornsilk%7D])(http://yuml.me/8bc56e1f)
 The GameManger has different states. Depending on the current state it will inform other scripts to activate or deactivate them. For example if the user press pause. The Player and SpawnMager Scripts get disabled and the main Menu gets enables simply by switching to the pause state. So at the start the scripts have to register themselves to their interested states.
 
 ## ControlsManager
 And here the Controls Manager:
+
 ![UML Class diagramm](http://yuml.me/diagram/scruffy/class/[%3C%3CIControl%3E%3E]%5E-.-[KeyboardControlled],[%3C%3CIControl%3E%3E]%5E-.-[KeyboardControlled2],[%3C%3CIControl%3E%3E]%5E-.-[TouchControlled],[%3C%3CIControl%3E%3E]++1-1%3E[ControlsManager],[KeyboardControlled2]++1-1%3E[%3C%3CIPlayerDirection%3E%3E],[TouchControlled]++1-1%3E[%3C%3CIPlayerDirection%3E%3E],[%3C%3CIPlayerDirection%3E%3E]%5E-.-[Walking],[Walking]-%3E[ControlsManager])(http://yuml.me/1c35fe18)
 The ControlsManager has one control this can be KeyboardControlled with WASD or KeyboardControlled2 and TouchControlled dependent on the player direction.
 In the end walking is one of the main classes that ask for input.
