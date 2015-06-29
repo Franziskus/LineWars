@@ -13,7 +13,7 @@ namespace Linewars.GameLogic
 		public bool shield;
 		public int attack;
 
-		public void EndAnimation(string name){
+		public void EndState(string name){
 			attack = 0;
 			shield = false; 
 			animator.SetBool("shield", shield);

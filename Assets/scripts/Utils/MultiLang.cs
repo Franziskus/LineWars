@@ -59,7 +59,11 @@ namespace Utils
 
 		public bool Load(){
 			string path = null;
-			if(Application.isWebPlayer || Application.isMobilePlatform){
+			bool webGL = false;
+			#if UNITY_WEBGL
+			webGL = true;
+			#endif
+			if(Application.isWebPlayer || Application.isMobilePlatform || webGL){
 				path = "lang";
 				Debug.Log("load Mobile or Web");
 				languages = XmlHelper.LoadXMLFolderOnline(path);
