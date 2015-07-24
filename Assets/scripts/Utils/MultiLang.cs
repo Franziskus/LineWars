@@ -78,13 +78,14 @@ namespace Utils
 				return false;
 			}else{
 				string foundLangs = "Founded Languages: ";
-				string[] temp = new string[languages.Count];
-				int i = 0;
+				List<string> temp = new List<string>();
 				foreach(string key in languages.Keys){
-					temp[i++] = key;
+                    if(webGL && key.Equals("Thai"))
+                        continue;
+                    temp.Add(key);
 					foundLangs += key+" ";
 				}
-				languagesNames = temp;
+				languagesNames = temp.ToArray();
 				Debug.Log(foundLangs);
 				return true;
 			}
